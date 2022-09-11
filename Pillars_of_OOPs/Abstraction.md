@@ -41,3 +41,11 @@ a.c();
 a.d();  
 }}  
 ```
+
+## When to use Abstraction
+
+The main purpose of abstraction is hiding the unnecessary details from the users. Abstraction is selecting data from a larger pool to show only relevant details of the object to the user. It helps in reducing programming complexity and efforts.
+
+# Interfaces
+
+
