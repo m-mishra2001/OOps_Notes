@@ -66,4 +66,5 @@ Interfaces are used to implement abstraction. So the question arises why use int
 
 The reason is, abstract classes may contain non-final variables, whereas variables in the interface are final, public and static.
 
+# [Differentiate between abstract class and Interface](https://www.javatpoint.com/difference-between-abstract-class-and-interface)
 
