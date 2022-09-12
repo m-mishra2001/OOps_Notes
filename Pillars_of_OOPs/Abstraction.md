@@ -47,5 +47,23 @@ a.d();
 The main purpose of abstraction is hiding the unnecessary details from the users. Abstraction is selecting data from a larger pool to show only relevant details of the object to the user. It helps in reducing programming complexity and efforts.
 
 # Interfaces
+An interface in Java is a blueprint of a class.
+
+Interfaces specify what a class must do and not how. It is the blueprint of the class.
+
+If a class implements an interface and does not provide method bodies for all functions specified in the interface, then the class must be declared abstract.
+
+- Why do we use an Interface?
+It is used to achieve total abstraction.
+
+Since java does not support multiple inheritances in the case of class, by using an interface it can achieve multiple inheritances.
+
+It is also used to achieve loose coupling.
+[Loose coupling](https://www.javatpoint.com/loose-coupling-in-java#:~:text=To%20achieve%20loose%20coupling%2C%20one,will%20make%20the%20concept%20clearer.)
+
+
+Interfaces are used to implement abstraction. So the question arises why use interfaces when we have abstract classes?
+
+The reason is, abstract classes may contain non-final variables, whereas variables in the interface are final, public and static.
 
 
