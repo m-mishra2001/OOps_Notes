@@ -85,3 +85,18 @@ public class TestEncapsulation {
 In the above program, the class Encapsulate is encapsulated as the variables are declared as private. 
 The get methods like getAge() , getName() , getRoll() are set as public, these methods are used to access these variables. 
 The setter methods like setName(), setAge(), setRoll() are also declared as public and are used to set the values of the variables.
+
+# Real world Example
+Consider a real life example of encapsulation, in a company there are different sections like the accounts section, finance section, sales section etc. The finance section handles all the financial transactions and keep records of all the data related to finance. Similarly the sales section handles all the sales related activities and keep records of all the sales. Now there may arise a situation when for some reason an official from finance section needs all the data about sales in a particular month. In this case, he is not allowed to directly access the data of sales section. He will first have to contact some other officer in the sales section and then request him to give the particular data. This is what encapsulation is. Here the data of sales section and the employees that can manipulate them are wrapped under a single name “sales section”. 
+
+We can not access any function from class directly. We need an object to access that function which is using the member the variable of that class.
+
+The function which we are making inside the class ,it must use the all member variable then only it is called encapsulation.
+
+If we  don’t  make function inside the class which is using the member  variable of the class then we don’t call it encapsulation.  
+
+## Ways to achieve Encapsulation in Java
+There are a few ways by which we can achieve encapsulation in java. Some of them are:
+
+a. Declaring the class variables as private so that they are inaccessible from outside the scope of the class.
+b. Designing getter and setter methods for the class and using them accordingly. The presence of getter and setter methods in a class define what type of class it is.
